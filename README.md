@@ -8,7 +8,6 @@ A command-line interface (CLI) tool built with Java and Spring Boot that starts 
 * **Request Forwarding:** Forwards all incoming requests to a specified origin server.
 * **In-Memory Cache:** Utilizes Caffeine for high-performance, in-memory caching to speed up repeated requests.
 * **Cache Status Header:** Automatically adds an `X-Cache: HIT` or `X-Cache: MISS` header to all responses to indicate whether the response came from the cache or the origin server.
-* **Cache Clearing:** Provides a dedicated command to clear the entire cache without needing to restart the server.
 * **Time-to-Live (TTL):** The cache is configured to automatically evict items after a certain period (currently set to 1 minute).
 
 -----
@@ -68,21 +67,6 @@ java -jar target/caching-proxy-0.0.1-SNAPSHOT.jar --port 3000 --origin https://d
 
 The server will start on port 3000 and will forward all requests to `https://dummyjson.com`. The terminal will block, which indicates the server is up and running.
 
-### 2. Clearing the Cache
-
-This command connects to the already running server and instructs it to clear its entire cache.
-
-**Syntax:**
-
-```bash
-java -jar target/caching-proxy-0.0.1-SNAPSHOT.jar --clear-cache --port <running_server_port>
-```
-
-**Example:**
-
-```bash
-java -jar target/caching-proxy-0.0.1-SNAPSHOT.jar --clear-cache --port 3000
-```
 
 -----
 

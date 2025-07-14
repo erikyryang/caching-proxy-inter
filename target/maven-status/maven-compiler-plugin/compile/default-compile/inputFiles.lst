@@ -1,5 +1,4 @@
 /home/kak/IdeaProjects/caching-proxy-inter/src/main/java/com/caching/proxy/CachingProxyApplication.java
-/home/kak/IdeaProjects/caching-proxy-inter/src/main/java/com/caching/proxy/command/ClearCacheCommand.java
 /home/kak/IdeaProjects/caching-proxy-inter/src/main/java/com/caching/proxy/command/ProxyCommand.java
 /home/kak/IdeaProjects/caching-proxy-inter/src/main/java/com/caching/proxy/configuration/RouterConfig.java
 /home/kak/IdeaProjects/caching-proxy-inter/src/main/java/com/caching/proxy/handler/ProxyHandler.java

@@ -4,4 +4,3 @@ com/caching/proxy/handler/ProxyHandler.class
 com/caching/proxy/command/ProxyCommand.class
 com/caching/proxy/service/ProxyService.class
 com/caching/proxy/model/CachedResponse.class
-com/caching/proxy/command/ClearCacheCommand.class
